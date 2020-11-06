@@ -1,0 +1,29 @@
+.menu {
+  position: absolute;
+  display: inline-block;
+  transform: translate(-100%);
+  transition: all 0.1s ease-in-out;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: var(--white);
+    border-radius: 5px;
+    box-shadow: 0 0 4px var(--grey);
+    top: 15px;
+    left: 25px;
+
+    li {
+      list-style: none;
+      padding: 10px;
+      width: 75px;
+      cursor: pointer;
+      color: var(--dark-grey);
+
+      &:hover {
+        color: var(--black);
+      }
+    }
+  }
+}

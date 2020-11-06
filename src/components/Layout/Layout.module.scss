@@ -1,0 +1,54 @@
+.layout {
+  color: var(--black);
+
+  .header {
+    background-color: var(--white);
+    color: var(--black);
+    height: 70px;
+    display: grid;
+    align-items: center;
+  }
+
+  .notifications {
+    cursor: pointer;
+  }
+
+  .content {
+    padding: 30px;
+    max-width: 900px;
+    min-width: 300px;
+    margin: auto;
+    min-height: calc(100vh - 70px - 210px);
+  }
+}
+
+.home {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .home_logo {
+    fill: var(--accent);
+    height: 30px;
+    width: 30px;
+  }
+
+  .home_name {
+    padding-left: 5px;
+  }
+}
+
+.sign_up {
+  cursor: pointer;
+  line-height: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 11px;
+  color: var(--dark-grey);
+  font-weight: bold;
+  padding: 10px;
+
+  &:hover {
+    color: var(--black);
+  }
+}
