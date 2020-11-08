@@ -1,5 +1,6 @@
 {
-  "name": "ui-components",
+  "name": "@jung-chang/ui-components",
+  "repository": "https://github.com/jung-chang/ui-components",
   "version": "0.1.0",
   "private": false,
   "license": "MIT",

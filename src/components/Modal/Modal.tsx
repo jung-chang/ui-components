@@ -1,6 +1,6 @@
 import React from "react";
 import { createPortal } from "react-dom";
-import Button from "/src/components/Button/Button";
+import Button from "../Button/Button";
 import styles from "./Modal.module.scss";
 
 const modalRootId = "modal-root";
